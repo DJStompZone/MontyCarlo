@@ -21,7 +21,7 @@ import json
 import random
 import argparse
 
-from montycarlo.monty import Monty
+from two_goats_one_car.monty import Monty
 
 
 def simulate(trials: int, seed: int | None = None) -> dict[str, float]:

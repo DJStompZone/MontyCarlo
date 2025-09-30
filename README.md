@@ -29,6 +29,12 @@ cd MontyCarlo
 pip install .
 ```
 
+Or install directly with pip:
+
+```bash
+pip install two-goats-one-car
+```
+
 ## Project Layout
 
 ```plaintext
@@ -36,7 +42,7 @@ MontyCarlo/
 ├── LICENSE
 ├── pyproject.toml
 ├── README.md
-└── montycarlo/
+└── two_goats_one_car/
     ├── __init__.py
     ├── __main__.py     # CLI entrypoint (python -m montycarlo)
     ├── monty.py        # Monty class & simulation logic
@@ -60,7 +66,7 @@ MontyCarlo/
 
 ```bash
 # Run 1,000,000 trials with a fixed seed:
-python -m montycarlo -n 1000000 -s 69420
+montycarlo -n 1000000 -s 69420
 ```
 
 ### Example Output

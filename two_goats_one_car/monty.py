@@ -4,7 +4,7 @@ import json
 import random
 from typing import Any
 
-from montycarlo.results import MontyResults
+from two_goats_one_car.results import MontyResults
 
 
 class Monty:

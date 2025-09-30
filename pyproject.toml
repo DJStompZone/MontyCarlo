@@ -1,6 +1,6 @@
 [project]
-name = "montycarlo"
-version = "1.0.0"
+name = "two-goats-one-car"
+version = "1.0.1"
 description = "A Monte Carlo simulator for the Monty Hall Problem"
 authors = [
     {name = "DJ Stomp",email = "85457381+DJStompZone@users.noreply.github.com"}
@@ -10,7 +10,8 @@ requires-python = ">=3.10,<4.0"
 dependencies = [
 ]
 
-
+[tool.poetry.scripts]
+montycarlo = "two_goats_one_car.__main__:main"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
