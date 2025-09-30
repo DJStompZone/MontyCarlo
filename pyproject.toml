@@ -1,0 +1,17 @@
+[project]
+name = "montycarlo"
+version = "1.0.0"
+description = "A Monte Carlo simulator for the Monty Hall Problem"
+authors = [
+    {name = "DJ Stomp",email = "85457381+DJStompZone@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10,<4.0"
+dependencies = [
+]
+
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
