@@ -1,0 +1,7 @@
+dist/
+__pycache__/
+*.py[cdio]
+*.env
+poetry_cache/
+.venv/
+.mypy_cache/
